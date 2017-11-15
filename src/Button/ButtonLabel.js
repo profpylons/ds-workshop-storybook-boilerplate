@@ -3,15 +3,15 @@ import cx from 'classnames'
 import * as s from './styles'
 import styled from 'styled-components'
 
+const Element = s.Button.withComponent('div').extend`
+  display: inline-flex;
+  padding-right: 0;
+`
+
+const Label = s.Label.withComponent('span');
+
 const Component = ({ label, children, color, ...props }) => {
   let className = cx('button', 'button--with-label', props.className)
-  let Element = s.Button.withComponent('div')
-  let Label = s.Label.withComponent('span');
-
-  Element = styled(Element)`
-    display: inline-flex;
-    padding-right: 0;
-  `
 
   return (
     <Element color={color} {...props} className={className}>

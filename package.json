@@ -1,5 +1,5 @@
 {
-  "name": "styled-components-lib-setup",
+  "name": "ds-workshop-storybook-boilerplate",
   "version": "0.1.0",
   "description": "Styled-components library setup (copied from React Components used at @Coderbox)",
   "main": "lib/my-awesome-library.js",
@@ -9,6 +9,7 @@
     "start": "start-storybook -p 6005",
     "build-storybook": "build-storybook",
     "deploy-storybook": "storybook-to-ghpages",
+    "demo": "webpack-dev-server --config webpack.demo.config.js --content-base build",
     "flow": "flow"
   },
   "repository": {
@@ -45,6 +46,7 @@
     "flow-bin": "^0.54.1",
     "standard": "^10.0.3",
     "webpack": "^3.5.4",
+    "webpack-dev-server": "^2.9.4",
     "webpack-node-externals": "^1.6.0",
     "yargs": "^8.0.2"
   },

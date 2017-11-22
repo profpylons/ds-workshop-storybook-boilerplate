@@ -22,6 +22,15 @@ npm start
 npm run build
 ```
 
+## Try out at the demo page
+
+```
+npm run demo
+```
+
+Edit sources in `demo` folder.
+
+
 # Build and publish documentation
 
 You can build Storybook documentation as a static website and publish to GH pages.

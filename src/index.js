@@ -4,7 +4,8 @@ import Icon from 'Icon'
 import PostCard from 'PostCard'
 import PostCardContainer from 'PostCardContainer'
 import Headline from 'Headline'
-import Author from '.Author'
+import Author from 'Author'
+import Image from '.Image'
 
 export {
   Author,

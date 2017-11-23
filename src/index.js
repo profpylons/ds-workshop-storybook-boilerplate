@@ -1,5 +1,6 @@
 import Box from 'Box'
 import Button from 'Button'
+import Header from 'Header'
 import Icon from 'Icon'
 import PostCard from 'PostCard'
 import PostCardContainer from 'PostCardContainer'
@@ -13,6 +14,8 @@ import Image from '.Image'
 export {
   Author,
   Box,
+  Button,
+  Header,
   Headline,
   PostCard,
   PostCardContainer,

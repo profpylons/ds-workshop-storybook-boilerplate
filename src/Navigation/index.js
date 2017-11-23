@@ -8,7 +8,7 @@ const Component = (props) => {
   return (
       <s.Navigation {...props} className={className}>
         {props.items.map((item, index) => {
-          return <s.NavigationItem key={index}>{item}</s.NavigationItem>
+          return <s.NavigationItem key={index}><a className={item.active ? 'active' : ''} href={item.link}>{item.text}</a></s.NavigationItem>
         })}
       </s.Navigation>
   )

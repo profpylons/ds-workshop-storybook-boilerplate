@@ -3,6 +3,8 @@ import { withColor, withSize } from 'styled-utils'
 
 export const Navigation = styled.div`
   float: right;
+  position: relative;
+  top: -25px;
 
   ${withColor}
   ${withSize}
